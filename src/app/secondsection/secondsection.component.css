@@ -51,3 +51,11 @@
   .mat-raised-button{
     background-color:red;
   }
+
+  .change{
+    display: inline-block;
+      width: 150px;
+      text-align: left;
+  }
+
+  

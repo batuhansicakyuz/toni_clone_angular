@@ -3,17 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { NaviComponent } from './navi/navi.component';
+import { FirstSection } from './firstsection/firstsection.component';
 import { HeaderComponent } from './header/header.component';
-import {MatButtonModule} from '@angular/material/button';
-import { SecondPage } from './secondpage/secondpage.component';
+import { MatButtonModule } from '@angular/material/button';
+import { SecondSection } from './secondsection/secondsection.component';
+import { ThirdSection } from './thirdsection/thirdsection.component';
+import { FourthSection } from './fourthsection/fourthsection.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    NaviComponent,
-    SecondPage,
+    FirstSection,
+    SecondSection,
+    ThirdSection,
+    FourthSection,
   ],
   imports: [
     BrowserModule,
