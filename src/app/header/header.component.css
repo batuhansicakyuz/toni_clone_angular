@@ -3,11 +3,11 @@
 .main{
   margin: auto;
     width: 70%;
-    border: 3px solid #c6b9b9;
     padding: 4px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
 }
 
 div.c {
@@ -87,4 +87,8 @@ section {
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+
+.mainbackground{
+  background-color: #152C42;
 }

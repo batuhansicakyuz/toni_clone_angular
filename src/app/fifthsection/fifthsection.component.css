@@ -1,9 +1,10 @@
-.center {
+.center1 {
     margin: auto;
     width: 70%;
-    /* border: 2px solid #c6b9b9; */
+    border: 2px solid #c6b9b9;
     padding: 20px;
     display: flex;
+    
     background-color: white;
     color: black;
   }

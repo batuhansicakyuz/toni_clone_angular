@@ -1,10 +1,12 @@
-.center1 {
+  .backgroundmain{
+    background-color: #152C42;
+  }
+
+  .center {
     margin: auto;
     width: 70%;
-    border: 2px solid #c6b9b9;
     padding: 20px;
     display: flex;
-    
     background-color: #152C42;
     color: white;
   }
