@@ -11,6 +11,8 @@ import { ThirdSection } from './thirdsection/thirdsection.component';
 import { FourthSection } from './fourthsection/fourthsection.component';
 import { FifthSection } from './fifthsection/fifthsection.component';
 
+import { GoogleMapsModule } from '@angular/google-maps';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,8 @@ import { FifthSection } from './fifthsection/fifthsection.component';
   imports: [
     BrowserModule,
     NgbModule,
-    MatButtonModule
+    MatButtonModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
